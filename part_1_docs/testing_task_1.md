@@ -36,6 +36,6 @@ def cards_total(self, cards):
   total #total variable must be assigned to 0
   for card in cards:
     total += card.value
-    return "You have a total of" + total #return indented "too far"
+    return "You have a total of" + total #return indented "too far" and f'string missing
   
 ```
